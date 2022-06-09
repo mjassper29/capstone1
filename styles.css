@@ -56,6 +56,16 @@ body {
     border-bottom: solid;
     
 }
+
+
+#edu-Cur,#edu-Col{
+    background-color:#57ffb9;
+    border-radius:10px;
+    color:black;
+    padding:6px 10px 6px 10px;
+    margin-right:4px;
+    margin-bottom:4px
+}
 .personality{
     padding: 10px;
     margin:  50px
@@ -162,14 +172,6 @@ body {
     
 }
 
-#edu-Cur,#edu-Col{
-    background-color:#9aff57;
-    border-radius:10px;
-    color:black;
-    padding:6px 10px 6px 10px;
-    margin-right:4px;
-    margin-bottom:4px
-}
 .languages
     {
     border-top: solid;
@@ -191,7 +193,7 @@ body {
     height:12px;
     width:340px;
     background:#DCE0E3;
-    position:relative;
+    position: relative;
     border-radius:8px;
     display:inline-block
 }
@@ -228,7 +230,7 @@ h5 {
     margin: 50px
 }
 #skill1{
-    display:inline-block;
+     display:inline-block;
     background-color:#fc3030;
     border-radius:10px;
     font-size:1.5rem;
