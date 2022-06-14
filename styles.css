@@ -29,13 +29,16 @@ body {
     .info a {
         font-size: 0.8rem;
     }
+    .picture{
+        max-width: 100%;
+    }
   }
 
 .picture{
     border-radius: 300px;
     float: right;
     margin:auto;
-    max-width: 100%;
+    max-width: 50%;
     flex: 50%;
 }
 
