@@ -9,19 +9,35 @@ body {
     font-family: 'Quicksand', sans-serif;
     max-width: 1000px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 
 }
+
+@media (max-width: 800px) {
+   #skill1,#skill2,#skill3,#skill4 {
+        font-size: 1rem;
+    }
+    .myheader{
+        flex-direction: column;
+        text-align: center;
+    }
+  }
+
 .picture{
     border-radius: 300px;
     float: right;
-    margin: auto;
+    margin:auto;
+    max-width: 40%;
+    flex: 50%;
 }
 
 .myheader{
-   margin: 15%;
-   text-align: left;
+    display: flex;
+   margin: auto;
+   text-align: center;
    font-weight: bold;
-   
+   flex: 50%;
 
 }
 
@@ -31,7 +47,8 @@ body {
 }
 
 .info{
-    margin-top: 10px
+    margin-top: 10px;
+    text-align: center;
 }
 
 
@@ -47,14 +64,13 @@ body {
     border-top: solid;
     border-bottom: solid;
     padding: 40px;
-    margin: 50px;
     text-align: center;
     font-size: 20px;
 }
 .Education{
     padding: 5px;
-    margin: 50px;
     border-bottom: solid;
+    
     
 }
 
@@ -64,12 +80,12 @@ body {
     border-radius:10px;
     color:black;
     padding:6px 10px 6px 10px;
-    margin-right:4px;
-    margin-bottom:4px
+    margin: auto;
+    width: 100%;
+    font-size: 1rem;
 }
 .personality{
     padding: 10px;
-    margin:  50px
 }
 
 #perso-label{
@@ -176,11 +192,10 @@ body {
 .languages
     {
     border-top: solid;
-    padding: 40px;
-    margin: 50px;
+    
     border-bottom: solid;
     box-sizing: border-box;
-    width: 50%;
+   
     }
 #en-lan,#fil-lan,#sp-lan{
     background-color:#ffc857;
@@ -194,7 +209,7 @@ body {
 
 .meter{
     height:12px;
-    width:340px;
+    width: 70%;
     background:#DCE0E3;
     position: relative;
     border-radius:8px;
@@ -202,21 +217,21 @@ body {
 }
 #en-meter{
     height:12px;
-    width:320px;
+    width: 80%;
     background:#323031;
     border-radius:8px;
     display:block;
 }
 #fil-meter{
     height:12px;
-    width:340px;
+    width:100%;
     background:#323031;
     border-radius:8px;
     display:block;
 }
 #sp-meter{
     height:12px;
-    width:80px;
+    width:20%;
     background:#323031;
     border-radius:8px;
     display:block;
@@ -229,8 +244,7 @@ h5 {
 
 .skills{
     border-bottom: solid;
-    padding: 10px;
-    margin: 50px
+
 }
 #skill1{
      display:inline-block;
@@ -270,6 +284,3 @@ h5 {
     
 }
 
-@media (max-width: 500px){
-    
-}
