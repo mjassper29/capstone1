@@ -5,7 +5,7 @@
 body {
     background-color: rgb(245, 238, 228);
     padding: 30px;
-    font-size: 16px;
+    
     font-family: 'Quicksand', sans-serif;
     max-width: 1000px;
     margin: auto;
@@ -22,22 +22,31 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    .info {
+        font-size: 0.8rem;
+        margin-left: -20px;
+    }
+    .info a {
+        font-size: 0.8rem;
+    }
   }
 
 .picture{
     border-radius: 300px;
     float: right;
     margin:auto;
-    max-width: 40%;
+    max-width: 100%;
     flex: 50%;
 }
 
 .myheader{
-    display: flex;
+   display: flex;
    margin: auto;
    text-align: center;
    font-weight: bold;
    flex: 50%;
+   margin: 15%;
+   font-weight: bold;
 
 }
 
@@ -48,7 +57,9 @@ body {
 
 .info{
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
+    
+    
 }
 
 
